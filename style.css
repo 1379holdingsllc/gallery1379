@@ -33,3 +33,4 @@ footer{border-top:1px solid #e5ded2;padding:24px 20px;font:.85rem system-ui,sans
 .news{margin:0 auto 16px;border:0;padding:0;max-width:480px}.news .row{display:flex;gap:8px}.news button{width:auto}
 @media(max-width:760px){.art,.split,.why,.steps{grid-template-columns:1fr}.trust,.terms,.colls{grid-template-columns:1fr 1fr}.hero.big{padding:48px 22px;min-height:360px}.hero.big h1{font-size:2.2rem}
 nav{gap:4px 12px}.coll{height:150px}.card img{height:200px}.grid{grid-template-columns:1fr 1fr;gap:10px}.stage.room .frame{width:55%}}
+.frame img{height:auto;display:block;width:100%}.stage.plain .frame img{max-height:80vh;width:auto;margin:auto}

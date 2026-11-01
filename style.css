@@ -1,35 +1,35 @@
-*{box-sizing:border-box}body{margin:0;font-family:Georgia,serif;color:#222;background:#faf8f4;line-height:1.55}
-a{color:#7a3e1d}img{max-width:100%}
-header{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;padding:14px 20px;border-bottom:1px solid #e5ded2;background:#fff;position:sticky;top:0;z-index:5}
-.logo{font-size:1.3rem;text-decoration:none;color:#222;letter-spacing:.12em}nav{display:flex;flex-wrap:wrap;gap:4px 16px}nav a{font:.88rem system-ui,sans-serif;text-decoration:none;color:#444}
-main{max-width:1140px;margin:auto;padding:20px}h1,h2{font-weight:normal}h2{border-bottom:1px solid #e5ded2;padding-bottom:6px}
-.hero{text-align:center;padding:30px 10px}.hero.big{text-align:left;color:#fff;background:#1d1a16 center/cover;border-radius:6px;padding:80px 48px;min-height:420px;display:flex;align-items:center}
-.hero.big h1{font-size:3rem;line-height:1.1;margin:.2em 0}.hero.big p{max-width:520px;font-size:1.1rem}.eyebrow{font:600 .8rem system-ui,sans-serif;letter-spacing:.15em;text-transform:uppercase;color:#e9c98f}
-.hero.artists{background:linear-gradient(120deg,rgba(29,26,22,.92),rgba(29,26,22,.55)),url(img/full/paul-c-zanne-still-life-with-apples-and-a-pot-of-primroses.webp) center/cover}
-.btn{display:inline-block;background:#b5652f;color:#fff;padding:13px 22px;border-radius:4px;text-decoration:none;font:600 1rem system-ui,sans-serif;margin:6px 6px 0 0}.btn.ghost{background:transparent;border:1px solid #fff}.btn.ghost.dark{color:#7a3e1d;border-color:#7a3e1d}
-.trust,.terms{list-style:none;padding:0;display:grid;grid-template-columns:repeat(4,1fr);gap:12px;font:.9rem system-ui,sans-serif;margin:20px 0}.trust li{background:#fff;border:1px solid #e5ded2;padding:12px}
-.terms li{background:#fff;border:1px solid #e5ded2;padding:18px;text-align:center}.terms b{display:block;font:2rem Georgia,serif;color:#7a3e1d}
+*{box-sizing:border-box}body{margin:0;font-family:Georgia,serif;color:#1c1c1c;background:#f6f1e7;line-height:1.55}
+a{color:#0f5b4a}img{max-width:100%}
+header{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;padding:14px 20px;border-bottom:1px solid #e2dacb;background:#fff;position:sticky;top:0;z-index:5}
+.logo{font-size:1.3rem;text-decoration:none;color:#1c1c1c;letter-spacing:.12em}nav{display:flex;flex-wrap:wrap;gap:4px 16px}nav a{font:.88rem system-ui,sans-serif;text-decoration:none;color:#444}
+main{max-width:1140px;margin:auto;padding:20px}h1,h2{font-weight:normal}h2{border-bottom:1px solid #e2dacb;padding-bottom:6px}
+.hero{text-align:center;padding:30px 10px}.hero.big{text-align:left;color:#fff;background:#1c1f1e center/cover;border-radius:6px;padding:80px 48px;min-height:420px;display:flex;align-items:center}
+.hero.big h1{font-size:3rem;line-height:1.1;margin:.2em 0}.hero.big p{max-width:520px;font-size:1.1rem}.eyebrow{font:600 .8rem system-ui,sans-serif;letter-spacing:.15em;text-transform:uppercase;color:#a8dcc8}
+.hero.artists{background:linear-gradient(120deg,rgba(22,26,24,.92),rgba(22,26,24,.55)),url(img/full/paul-c-zanne-still-life-with-apples-and-a-pot-of-primroses.webp) center/cover}
+.btn{display:inline-block;background:#0f5b4a;color:#fff;padding:13px 22px;border-radius:4px;text-decoration:none;font:600 1rem system-ui,sans-serif;margin:6px 6px 0 0}.btn.ghost{background:transparent;border:1px solid #fff}.btn.ghost.dark{color:#0f5b4a;border-color:#0f5b4a}
+.trust,.terms{list-style:none;padding:0;display:grid;grid-template-columns:repeat(4,1fr);gap:12px;font:.9rem system-ui,sans-serif;margin:20px 0}.trust li{background:#fff;border:1px solid #e2dacb;padding:12px}
+.terms li{background:#fff;border:1px solid #e2dacb;padding:18px;text-align:center}.terms b{display:block;font:2rem Georgia,serif;color:#0f5b4a}
 .colls{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.coll{position:relative;padding:0;border:0;background:#000;cursor:pointer;border-radius:4px;overflow:hidden;height:200px;text-align:left}
 .coll img{width:100%;height:100%;object-fit:cover;opacity:.7}.coll span{position:absolute;left:12px;bottom:10px;color:#fff;font-family:system-ui,sans-serif}.coll b{display:block;font:1.2rem Georgia,serif}
 .filters{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:16px}.filters select{width:auto;flex:1 1 160px}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:18px}.card{background:#fff;border:1px solid #e5ded2;text-decoration:none;color:#222;transition:box-shadow .2s}.card:hover{box-shadow:0 6px 18px rgba(0,0,0,.12)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:18px}.card{background:#fff;border:1px solid #e2dacb;text-decoration:none;color:#1c1c1c;transition:box-shadow .2s}.card:hover{box-shadow:0 6px 18px rgba(0,0,0,.12)}
 .card img{width:100%;height:260px;object-fit:cover;display:block}.card div{padding:10px;font-size:.95rem}.card small{color:#666;font-family:system-ui,sans-serif}.card[hidden]{display:none}
 section{margin:48px 0}.split{display:grid;grid-template-columns:1fr 1fr;gap:32px}
 .prices{width:100%;border-collapse:collapse;font:.92rem system-ui,sans-serif;background:#fff}.prices td,.prices th{border-bottom:1px solid #eee;padding:8px;text-align:left}
-form{background:#fff;border:1px solid #e5ded2;padding:16px;display:grid;gap:10px;max-width:560px;font-family:system-ui,sans-serif}form.wide{max-width:680px}
-input,select,textarea,button{font:inherit;font-size:16px;padding:11px;border:1px solid #ccc;border-radius:4px;width:100%}button{background:#7a3e1d;color:#fff;border:0;cursor:pointer;font-weight:600}
-button.small{width:auto;padding:7px 12px;font-size:.85rem;background:#eee;color:#333}button.small.on{background:#1d1a16;color:#fff}
+form{background:#fff;border:1px solid #e2dacb;padding:16px;display:grid;gap:10px;max-width:560px;font-family:system-ui,sans-serif}form.wide{max-width:680px}
+input,select,textarea,button{font:inherit;font-size:16px;padding:11px;border:1px solid #ccc;border-radius:4px;width:100%}button{background:#0f5b4a;color:#fff;border:0;cursor:pointer;font-weight:600}
+button.small{width:auto;padding:7px 12px;font-size:.85rem;background:#eee;color:#333}button.small.on{background:#1c1f1e;color:#fff}
 .art{display:grid;grid-template-columns:1.3fr 1fr;gap:28px}.art h1{margin-top:0}.view{display:flex;gap:6px;margin-bottom:8px}
 .stage .wall{background:#f1ede6;padding:20px;display:flex;flex-direction:column;align-items:center}.stage.plain .sofa{display:none}.stage.plain .frame{border:0;box-shadow:none}
 .stage.room .wall{background:linear-gradient(#d9d2c5,#cfc6b6 78%,#8a6a4f 78%);padding:40px 20px 0;min-height:440px}.stage.room .frame{width:38%;border:8px solid #2a2520;box-shadow:0 10px 24px rgba(0,0,0,.35);background:#fff;padding:6px}
-.stage.room .sofa{width:70%;height:90px;margin-top:40px;background:#55625a;border-radius:16px 16px 6px 6px;box-shadow:inset 0 18px 0 #4a564f}
+.stage.room .sofa{width:70%;height:90px;margin-top:40px;background:#a8634a;border-radius:16px 16px 6px 6px;box-shadow:inset 0 18px 0 #94553f}
 .opt{display:flex;gap:10px;align-items:center;border:1px solid #ddd;padding:8px 10px;border-radius:4px;font-size:.92rem}.opt input{width:auto}.opt span{flex:1}
-details{background:#fff;border:1px solid #e5ded2;padding:10px 14px;margin:8px 0;font-family:system-ui,sans-serif}summary{cursor:pointer;font-weight:600}
-.steps{list-style:none;padding:0;display:grid;grid-template-columns:repeat(3,1fr);gap:14px;counter-reset:s}.steps li{background:#fff;border:1px solid #e5ded2;padding:20px;counter-increment:s;font-family:system-ui,sans-serif}
-.steps li:before{content:counter(s);display:inline-block;width:34px;height:34px;line-height:34px;text-align:center;border-radius:50%;background:#b5652f;color:#fff;font-weight:700;margin-bottom:8px}.steps b{display:block;font:1.2rem Georgia,serif}
-.why{display:grid;grid-template-columns:1fr 1fr;gap:14px}.why div{background:#fff;border:1px solid #e5ded2;padding:16px}.why p{margin:.3em 0 0;font-family:system-ui,sans-serif;font-size:.95rem}
+details{background:#fff;border:1px solid #e2dacb;padding:10px 14px;margin:8px 0;font-family:system-ui,sans-serif}summary{cursor:pointer;font-weight:600}
+.steps{list-style:none;padding:0;display:grid;grid-template-columns:repeat(3,1fr);gap:14px;counter-reset:s}.steps li{background:#fff;border:1px solid #e2dacb;padding:20px;counter-increment:s;font-family:system-ui,sans-serif}
+.steps li:before{content:counter(s);display:inline-block;width:34px;height:34px;line-height:34px;text-align:center;border-radius:50%;background:#0f5b4a;color:#fff;font-weight:700;margin-bottom:8px}.steps b{display:block;font:1.2rem Georgia,serif}
+.why{display:grid;grid-template-columns:1fr 1fr;gap:14px}.why div{background:#fff;border:1px solid #e2dacb;padding:16px}.why p{margin:.3em 0 0;font-family:system-ui,sans-serif;font-size:.95rem}
 .prose{max-width:720px;margin:auto;font-size:1.08rem}.note{font:.9rem system-ui,sans-serif;color:#555}
-footer{border-top:1px solid #e5ded2;padding:24px 20px;font:.85rem system-ui,sans-serif;color:#555;text-align:center;background:#fff}
+footer{border-top:1px solid #e2dacb;padding:24px 20px;font:.85rem system-ui,sans-serif;color:#555;text-align:center;background:#fff}
 .news{margin:0 auto 16px;border:0;padding:0;max-width:480px}.news .row{display:flex;gap:8px}.news button{width:auto}
 @media(max-width:760px){.art,.split,.why,.steps{grid-template-columns:1fr}.trust,.terms,.colls{grid-template-columns:1fr 1fr}.hero.big{padding:48px 22px;min-height:360px}.hero.big h1{font-size:2.2rem}
 nav{gap:4px 12px}.coll{height:150px}.card img{height:200px}.grid{grid-template-columns:1fr 1fr;gap:10px}.stage.room .frame{width:55%}}

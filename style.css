@@ -56,3 +56,4 @@ button{background:var(--gold);color:var(--ink);border-radius:0;letter-spacing:.1
 .reveal{opacity:0;transform:translateY(18px);transition:opacity 1s ease,transform 1s ease}.reveal.in{opacity:1;transform:none}
 @media(prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}}
 @media(max-width:760px){.hero.big{min-height:440px;padding:56px 24px}.hero.big h1{font-size:2.5rem}section{margin:64px 0}header{padding:14px 18px}}
+.filters select{min-width:0;max-width:100%}form select{min-width:0}
